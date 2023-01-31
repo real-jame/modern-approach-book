@@ -9,8 +9,6 @@ int main(void) {
     printf("Enter an amount: ");
     scanf("%f", &price);
 
-    printf("With tax added: %f", price * TAX_PERCENT);
+    printf("With tax added: %.2f", price * TAX_PERCENT);
     return 0;
 }
-
-// TODO: rounding to 2 decimals somehow

@@ -17,13 +17,13 @@ int main(void) {
 
     loan *= monthlyRate;
     loan -= payment;
-    printf("\nBalance remaining after first payment: %f", loan);
+    printf("\nBalance remaining after first payment: %.2f", loan);
 
     loan *= monthlyRate;
     loan -= payment;
-    printf("\nBalance remaining after second payment: %f", loan);
+    printf("\nBalance remaining after second payment: %.2f", loan);
 
     loan *= monthlyRate;
     loan -= payment;
-    printf("\nBalance remaining after third payment: %f", loan);
+    printf("\nBalance remaining after third payment: %.2f", loan);
 }
